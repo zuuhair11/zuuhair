@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zuuhair11/static/css/main.82010914.css",
+    "main.js": "/zuuhair11/static/js/main.3dd11f70.js",
+    "index.html": "/zuuhair11/index.html",
+    "main.82010914.css.map": "/zuuhair11/static/css/main.82010914.css.map",
+    "main.3dd11f70.js.map": "/zuuhair11/static/js/main.3dd11f70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82010914.css",
+    "static/js/main.3dd11f70.js"
+  ]
+}
