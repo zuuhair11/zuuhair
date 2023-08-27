@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+        <title>
+            Zouhair Sahtout | A Full-Stack Developer based in Rabat, MA
+        </title>
+        <meta name="description" content="I am Zouhair. I am a Web Developer. I do speak English, I love Linux">
+        <meta name="keywords" content="Zouhair Sahtout, Zouhair, Sahtout, Code, Programming, HTML5, CSS3, HTML, CSS, JavaScript, React, HTMX, UI/UX, Front-End, Back-End, Full-Stack, Developemnt" />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+
+        <!-- ***** Header ***** -->
+        <header class="header" role="banner" id="top">
+            <div class="row">
+                <nav class="nav" role="navigation">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__text-box row">
+                <div class="header__text">
+                    <h1 class="heading-primary">
+                        <!-- Replace the following name with your name -->
+                        <span>Zouhair Sahtout</span>
+                    </h1>
+                    <!-- Put a small paragraph about yourself -->
+                    <p>A Full-Stack Developer / JavaScript Wizard <br /> Based in Rabat, MA</p>
+                    <a href="#contact" class="btn btn--pink">Get in touch</a>
+                </div>
+            </div>
+        </header>
+
+        <main role="main">
+
+            <!-- ***** Work ***** -->
+            <section class="work" id="work">
+                <div class="row">
+                    <h2>My Work</h2>
+                    <div class="work__boxes">
+
+                        <!-- Each div with the work__box class is a project. -->
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Quizzical App</h3>
+                                <p>The app allows users to test their IT knowledge with a set of questions. After selecting their answers, they can check their results to see how they performed. 🔗 I've open-sourced the project on GitHub, so you can check out the code and even try the quiz yourself.</p>
+                                <ul class="work__list">
+                                    <li>React</li>
+                                    <li>JSX</li>
+                                    <li>API</li>
+                                    <li>Netlify</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a href="https://it-quizzical.netlify.app" class="link__text" target="_blank">
+                                        Visit Site <span>&rarr;</span>
+                                    </a>
+                                    <a href="https://github.com/zuuhair11/quizzical-app" target="_blank">
+                                        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img src="./images/quiz.jpg" class="work__image" alt="Project 3" />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Tenzies App</h3>
+                                <p>Tenzies is a fun dice-rolling game built using React! In this game, players have to roll a set of dice until they all show the same value. Players can strategically freeze dice at certain values between rolls to increase their chances of winning.</p>
+                                <ul class="work__list">
+                                    <li>JavaScript</li>
+                                    <li>React</li>
+                                    <li>JSX</li>
+                                    <li>Netlify</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a href="https://d-tenzies.netlify.app/" target="_blank" class="link__text">
+                                        Visit Site <span>&rarr;</span>
+                                    </a>
+                                    <a href="https://github.com/zuuhair11/tenzies-app" target="_blank">
+                                        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img class="styled" src="./images/tenzies.png" class="work__image" alt="Project 1" />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Movie App</h3>
+                                <p>Search for any movie, have an overview about the film, and also you can add it to your watchlist, so that later you can come back to it, you'll find it saved</p>
+                                <ul class="work__list">
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>API</li>
+                                    <li>localStorage</li>
+                                    <li>Object Oriend Programming</li>
+                                    <li>MVC</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a href="https://zuuhair11.github.io/watcher20-05/" class="link__text" target="_blank">
+                                        Visit Site <span>&rarr;</span>
+                                    </a>
+                                    <a href="https://github.com/zuuhair11/watcher20-05" target="_blank">
+                                        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img src="./images/watcher.png" class="work__image" alt="Project 3" />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Meme Generator</h3>
+                                <p>In this small project I went through almost all the details and fundamentals in React such what React in charge of like state and keeping the UI update whenever the state change occure, and what's not in charge of it can't handle by its own like localStorage, API, Subscription (e.g web sockets) that's called side effects, so we use sideEffect</p>
+                                <ul class="work__list">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>React</li>
+                                    <li>API / REST</li>
+                                    <li>JSX</li>
+
+                                </ul>
+
+                                <div class="work__links">
+                                    <a href="https://g-meme.netlify.app" target="_blank" class="link__text">
+                                        Visit Site <span>&rarr;</span>
+                                    </a>
+                                    <a href="https://github.com/zuuhair11/meme-generator" target="_blank">
+                                        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img src="./images/meme-generator.png" class="work__image" alt="Project 1" />
+                            </div>
+                        </div>
+                        
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Password Generator</h3>
+                                <p>App that can generate a strong password for you</p>
+                                <ul class="work__list">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>random() method</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a href="https://zuuhair11.github.io/Password-Generator/" target="_blank" class="link__text">
+                                        Visit Site <span>&rarr;</span>
+                                    </a>
+                                    <a href="https://github.com/zuuhair11/Password-Generator" target="_blank">
+                                        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img src="./images/password.jpg" class="work__image" alt="Project 1" />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Personal Dashboard</h3>
+                                <p>A Chrome extension to help you focus and stay up-to-date.</p>
+                                <ul class="work__list">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a href="https://github.com/zuuhair11/Chrome-Extension" title="View Source Code" target="_blank">
+                                        <img src="./images/github.svg" class="work__code" alt="GitHub">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img src="./images/dashboard-2.png" class="work__image" alt="Project 1" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ***** Clients ***** -->
+            <!-- 
+            <section class="client" id="clients">
+                <div class="row">
+                <h2>Clients</h2>
+                <div class="client__logos">
+                    <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+                    <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+                    <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+                    <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+                    <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+                    <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+                </div>
+                </div>
+            </section> -->
+
+            <!-- ***** About ***** -->
+
+            <section class="about" id="about">
+                <div class="row">
+                    <h2>About Me</h2>
+                    <div class="about__content">
+                        <div class="about__text">
+                            <!-- Replace the below paragraph with info about yourself -->
+                            I'm a web developer and designer based out of Rabat, MA. I love building apps that solve real-world problems, and that are delightful to use. My specialities include JavaScript, React JS, CSS, and Styled Components.</p>
+                            <p>My background is in teaching and marketing, and I have an associate degree in Web Full Stack Developemnt from OFPPT(in German 'Ausbildung'). I do speak English fluent and I am huge fan of Linux.</p>
+                            <!-- Provide a link to your resume -->
+                            <a href="./Zouhair_Sahtout.pdf" target="_blank" class="btn">My Resume</a>
+                        </div>
+                        <div class="about__photo-container">
+                            <!-- Add a nice photo of yourself -->
+                            <img 
+                                style="height: 379px; border: 2px solid #ff3258;" 
+                                class="about__photo" src="./images/about_zouhair.jpg" 
+                                alt="" 
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ***** Contact ***** -->
+
+        <section class="contact" id="contact">
+            <div class="row">
+                <h2>Get in Touch</h2>
+                <div class="contact__info">
+                    <p>
+                        Are you looking for a fast-performing and user-friendly website to
+                        represent your product or business? or looking for any kind of
+                        consultation? or want to ask questions? or have some advice for me
+                        or just want to say "Hi 👋" in any case feel free to Let me know. I
+                        will do my best to respond back. 😊 The quickest way to reach out to
+                        me is via an email.
+                    </p>
+                    <!-- Replace the email with yours -->
+                    <a href="mailto:zouhairsahtout66@gmail.com" class="btn">here</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Footer ***** -->
+
+        <footer role="contentinfo" class="footer">
+            <div class="row">
+                <!-- Update the links to point to your accounts -->
+                <ul class="footer__social-links">
+                    <li class="footer__social-link-item">
+                        <a href="https://twitter.com/zouhair_sahtout" title="Link to Twitter Profile" target="_blank">
+                            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a href="https://github.com/zuuhair11" title="Link to Github Profile" target="_blank">
+                            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a href="https://www.linkedin.com/in/zouhair-sahtout/" target="_blank">
+                            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+                        </a>
+                    </li>
+                </ul>                
+                <p>
+                    &copy; 
+                    <span id="year">
+                        <!-- Year goes here from JavaScript -->
+                    </span> - Template designed & developed by Zouhair
+
+                    <script>
+                        const year  = document.getElementById('year');
+                        year.innerHTML = new Date().getFullYear()
+                    </script>
+                </p>
+            </div>
+        </footer>
+
+        <a href="#top" class="back-to-top" title="Back to Top">
+            <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+        </a>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
